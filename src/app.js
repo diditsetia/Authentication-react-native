@@ -3,12 +3,12 @@ import {
   View
 } from 'react-native';
 
-import firebase from 'firebase';
+import  firebase from 'firebase';
 import {Header} from './components/common';
 import LoginForm from './components/LoginForm';
 
 class  App extends Component {
-  ComponentWillMount() {
+  componentWillMount() {
     firebase.initializeApp({
     apiKey: 'AIzaSyCwQ3tIXwsgHhxxNoGI1JhSkV9icvCas30',
     authDomain: 'autentication-7b79a.firebaseapp.com',
