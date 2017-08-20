@@ -1,8 +1,5 @@
 import React, { Component} from 'react';
-import {
-  View
-} from 'react-native';
-
+import {View} from 'react-native';
 import  firebase from 'firebase';
 import {Header} from './components/common';
 import LoginForm from './components/LoginForm';
@@ -10,13 +7,14 @@ import LoginForm from './components/LoginForm';
 class  App extends Component {
   componentWillMount() {
     firebase.initializeApp({
-    apiKey: 'AIzaSyCwQ3tIXwsgHhxxNoGI1JhSkV9icvCas30',
-    authDomain: 'autentication-7b79a.firebaseapp.com',
-    databaseURL: 'https://autentication-7b79a.firebaseio.com',
-    projectId: 'autentication-7b79a',
-    storageBucket: 'autentication-7b79a.appspot.com',
-    messagingSenderId: '487581341173'
+    apiKey: 'AIzaSyCHCmxldpJRmuw1n1pXJZu_28jzpIzjids',
+    authDomain: 'authentication-43687.firebaseapp.com',
+    databaseURL: 'https://authentication-43687.firebaseio.com',
+    projectId: 'authentication-43687',
+    storageBucket: 'authentication-43687.appspot.com',
+    messagingSenderId: '942207882874'
   });
+
   }
   render () {
       return (
