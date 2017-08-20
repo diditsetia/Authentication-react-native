@@ -5,9 +5,9 @@ import {
 } from 'react-native';
 
 const Button = ({onPress,children}) => {
-  const {buttomStyle,textStyle}= styles;
+  const {buttonStyle,textStyle}= styles;
     return (
-    <TouchableOpacity onPress={onPress}  style={buttomStyle}>
+    <TouchableOpacity onPress={onPress}  style={buttonStyle}>
       <Text style={textStyle}>
         {children}
       </Text>
@@ -24,7 +24,7 @@ const Button = ({onPress,children}) => {
       paddingTop: 10,
       paddingBottom:10,
     },
-    buttomStyle : {
+    buttonStyle : {
       flex: 1,
       alignSelf:'center',
       backgroundColor: '#fff',
@@ -33,6 +33,7 @@ const Button = ({onPress,children}) => {
       marginLeft: 5,
       marginRight: 5,
       borderRadius:2,
+
     }
   };
 export { Button };
